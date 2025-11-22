@@ -1,6 +1,6 @@
 # Self-Supervised Autoencoder Network for Robust Heart Rate Extraction from Noisy Photoplethysmogram
 
-**Paper Links:** [arXiv](https://arxiv.org/abs/2504.09132) [[pdf](https://arxiv.org/pdf/2504.09132)]
+**Paper Links:** [Computers in Biology and Medicine](https://doi.org/10.1016/j.compbiomed.2025.111319), [arXiv](https://arxiv.org/abs/2504.09132) [[pdf](https://arxiv.org/pdf/2504.09132)]
 
 ## Abstract
 Biosignals can be viewed as mixtures measuring particular physiological events, and blind source separation (BSS) aims to extract underlying source signals from mixtures. This paper proposes a self-supervised multi-encoder autoencoder (MEAE) to separate heartbeat-related source signals from photoplethysmogram (PPG), enhancing heart rate (HR) detection in noisy PPG data. The MEAE is trained on PPG signals from a large open polysomnography database without any pre-processing or data selection. The trained network is then applied to a noisy PPG dataset collected during the daily activities of nine subjects. The extracted heartbeat-related source signal significantly improves HR detection as compared to the original PPG. The absence of pre-processing and the self-supervised nature of the proposed method, combined with its strong performance, highlight the potential of BSS in biosignal analysis.
@@ -56,14 +56,16 @@ The MEAE model used in our experiments can be found [here](https://drive.google.
 Extract the model and config file into a `./checkpoints` folder within the repository. Go to the example usage notebook here: `notebooks/test_model.ipynb`
 
 ```
-@misc{webster2025selfsupervised,
-    title={Self-Supervised Autoencoder Network for Robust Heart Rate Extraction from Noisy Photoplethysmogram: Applying Blind Source Separation to Biosignal Analysis},
-    author={Matthew B. Webster and Dongheon Lee and Joonnyong Lee},
-    year={2025},
-    eprint={2504.09132},
-    archivePrefix={arXiv},
-    primaryClass={cs.LG}
-}
+@article{WEBSTER2025111319,
+title = {Self-supervised autoencoder network for robust heart rate extraction from noisy photoplethysmogram: Applying blind source separation to biosignal analysis},
+journal = {Computers in Biology and Medicine},
+volume = {199},
+pages = {111319},
+year = {2025},
+issn = {0010-4825},
+doi = {https://doi.org/10.1016/j.compbiomed.2025.111319},
+url = {https://www.sciencedirect.com/science/article/pii/S0010482525016737},
+author = {Matthew B. Webster and Dongheon Lee and Joonnyong Lee},
 ```
 
 ### References

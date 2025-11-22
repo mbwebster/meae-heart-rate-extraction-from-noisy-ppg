@@ -1,6 +1,6 @@
 # Self-Supervised Autoencoder Network for Robust Heart Rate Extraction from Noisy Photoplethysmogram
 
-**Paper Links:** [Computers in Biology and Medicine](https://doi.org/10.1016/j.compbiomed.2025.111319), [arXiv](https://arxiv.org/abs/2504.09132) [[pdf](https://arxiv.org/pdf/2504.09132)]
+**Paper Links:** [Computers in Biology and Medicine](https://doi.org/10.1016/j.compbiomed.2025.111319), [arXiv Preprint](https://arxiv.org/abs/2504.09132)
 
 ## Abstract
 Biosignals can be viewed as mixtures measuring particular physiological events, and blind source separation (BSS) aims to extract underlying source signals from mixtures. This paper proposes a self-supervised multi-encoder autoencoder (MEAE) to separate heartbeat-related source signals from photoplethysmogram (PPG), enhancing heart rate (HR) detection in noisy PPG data. The MEAE is trained on PPG signals from a large open polysomnography database without any pre-processing or data selection. The trained network is then applied to a noisy PPG dataset collected during the daily activities of nine subjects. The extracted heartbeat-related source signal significantly improves HR detection as compared to the original PPG. The absence of pre-processing and the self-supervised nature of the proposed method, combined with its strong performance, highlight the potential of BSS in biosignal analysis.
